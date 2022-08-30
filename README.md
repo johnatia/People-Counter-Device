@@ -1,5 +1,5 @@
 # People-Counter-Device
-People Counter Device measures the density in the rooms and workplaces
+People Counter Device measures the density in the rooms and workplaces using Time of Flight (ToF) technology.
 
 
 
