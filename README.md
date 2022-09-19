@@ -33,13 +33,17 @@ to read the previous data you can send the following string = "/11"
 
 ## Over the Air
 You can upload new firmware to the device.
-You have to connect the People Counter and the PC to the same Wi-Fi network
-Send the following string using the Serial Bluetooth = "/12"
-then the device will respond you with specific IP address, you can use this IP address in platformio.ini file as shown
+
+1-You have to connect the People Counter and the PC to the same Wi-Fi network.
+
+2-Send the following string using the Serial Bluetooth = "/12".
+
+3-The device will respond you with specific IP address, you can use this IP address in platformio.ini file as shown
 '''
 upload_port = 192.168.43.127
 '''
-then build and upload the new firmware and it will load then show success when finish.
+
+4-Build and upload the new firmware and it will load then show success when finish.
 
 https://user-images.githubusercontent.com/55362599/187406659-48200971-6c61-4f46-9c21-a6104f0e11e5.mp4
 
