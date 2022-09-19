@@ -39,9 +39,9 @@ You can upload new firmware to the device.
 2-Send the following string using the Serial Bluetooth = "/12".
 
 3-The device will respond you with specific IP address, you can use this IP address in platformio.ini file as shown
-'''
+```
 upload_port = 192.168.43.127
-'''
+```
 
 4-Build and upload the new firmware and it will load then show success when finish.
 
