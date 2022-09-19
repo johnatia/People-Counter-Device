@@ -99,7 +99,7 @@ uint16_t PeopleCountAlgorithm(uint16_t distance, uint8_t zone, uint16_t Distance
     // SerialBT.print("] = ");
     // SerialBT.println(MinDistance);
   
-    if(distance < DistanceThreshold)
+    if( (distance < DistanceThreshold) && (distance > 500 ) )
     { 
       CurrentZoneStatus = SOMEONE;
         // Serial.print("SOMEONE \t distance: ");

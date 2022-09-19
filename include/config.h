@@ -3,6 +3,8 @@
 #define YES                           1
 #define NO                            0
 
+
+#define DEVICE_VERSION              2.00
 #define DISPLAY_VERSION             NO
 #define URL_LINK "http://wms.cardi-hu.com/api/auth/store-IoT-device-read"
 //#define DEVICE_ID "A3320"

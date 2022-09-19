@@ -82,7 +82,7 @@ void TaskmainCode( void * pvParameters )
         LastMode = ACTIVE_MODE;
       break;
     }
-  vTaskDelay(1);
+  vTaskDelay(10);
 }
 
 }

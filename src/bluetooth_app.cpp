@@ -214,6 +214,8 @@ void BLEReceiveDataCode( void * pvParameters )
 
                     case GET_DEVICE_DATA:
                         SelectMode = CONFIG_MODE;
+                        SerialBT.print("Device Version =  ");
+                        SerialBT.println(DEVICE_VERSION);
                         eeprom_app_read_device_ID();
                         SerialBT.print("People Count = ");
                         SerialBT.println(PeopleCount);

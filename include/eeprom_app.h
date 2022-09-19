@@ -5,13 +5,7 @@
 #include "config.h"
 #include "bluetooth_app.h"
 
-
-#if(DISPLAY_VERSION == YES)
 #define EEPROM_SIZE                         120
-#define EEPROM_OVER_DENSITY_ADDRESS         119
-#else
-#define EEPROM_SIZE                         101
-#endif
 
 #define EEPROM_THRESHOLD_ADDRESS_LSB        0
 #define EEPROM_THRESHOLD_ADDRESS_MSB        1
@@ -25,7 +19,9 @@
 #define EEPROM_DEVICE_ID_ADDRESS_START      87
 #define EEPROM_DEVICE_ID_ADDRESS_END        117
 #define EEPROM_DEVICE_IS_1ST_TIME_TO_BOOT   118
-
+#if(DISPLAY_VERSION == YES)
+#define EEPROM_OVER_DENSITY_ADDRESS         119
+#endif
 
 
 
