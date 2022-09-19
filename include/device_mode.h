@@ -21,16 +21,17 @@
 
 //set 5 seconds WDT
 #define WDT_TIMEOUT             5
-// #define WIFI_MODE          0x06
+
 #define SETTINGS_PEOPLE_COUNT   0x04
 #define SETTINGS_OVER_DENSITY   0x05
 #define SETTINGS_WIFI           0x06
-#define SETTINGS_THRESHOLD      0x09
+#define SETTINGS_DEVICE_ID      0x07
 #define SETTINGS_LOCATION       0x08
+#define SETTINGS_THRESHOLD      0x09
 #define DEVICE_ON               10
 #define GET_DEVICE_DATA         11
 #define UPLOAD_OTA              12
-#define SETTINGS_DEVICE_ID      0x07
+
 #define DISABLE_BLE             0x100
 
 
