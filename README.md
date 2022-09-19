@@ -25,7 +25,9 @@ Setting the Threshold = "/9"
 
 All the previous settings switch the device into Config Mode.
 
-So to get back into Active Mode = "/10" , it will start to transfer simple frame consists some numbers which corresponds Front Zone Distance, Back Zone Distance, Threshold, People Count, ToF Signal Rate, the frame will start with /* and end by */ it can be graphed using Serial Studio.
+So to get back into Active Mode = "/10" 
+
+It will start to transfer simple frame consists some numbers which corresponds Front Zone Distance, Back Zone Distance, Threshold, People Count, ToF Signal Rate, the frame will start with /* and end by */ it can be graphed using Serial Studio.
 By sending "/10" again That will stop sending the frame but the Active Mode will remain working.
 to read the previous data you can send the following string = "/11"
 
