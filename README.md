@@ -31,7 +31,7 @@ After downloading Serial Bluetooth Terminal you can set the following parameters
 
 -By sending "/10" again That will stop sending the frame but the Active Mode will remain working.
 
--To read the previous saved configurations you saved on EEPROM send string = "/11"
+-To read the previous configurations you saved on EEPROM send string = "/11"
 
 ## Over the Air
 You can upload new firmware to the device.
