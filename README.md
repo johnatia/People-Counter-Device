@@ -7,6 +7,8 @@ you can set some configurations using Serial Bluetooth at installation and they 
 you can use [Serial Bluetooth Terminal](https://play.google.com/store/apps/details?id=de.kai_morich.serial_bluetooth_terminal) on andriod or [Serial Studio](https://play.google.com/store/apps/details?id=de.kai_morich.serial_bluetooth_terminal) on PC 
 
 Note: Serial Studio will be useful also for drawing the output signals as shown
+![distancemeasures](https://user-images.githubusercontent.com/55362599/191098463-d2d7bf27-b525-455d-8250-6d287b7ca8bc.png)
+
 
 After downloading Serial Bluetooth Terminal you can set the following parameters:
 Setting People Count = "/4"
